@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:067609442845:task-definition/fabridiplomadotareafam:3",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:067609442845:task-definition/fabridiplomadotareafam:5",
     "containerDefinitions": [
         {
             "name": "fabridiplomadocon",
-            "image": "067609442845.dkr.ecr.us-east-2.amazonaws.com/fabridiplomadorepo:2b63093fd2236489a8fb3661d303dffcb29b03c6",
+            "image": "067609442845.dkr.ecr.us-east-2.amazonaws.com/fabridiplomadorepo",
             "cpu": 0,
             "portMappings": [
                 {
@@ -16,14 +16,16 @@
             ],
             "essential": true,
             "environment": [],
+            "environmentFiles": [],
             "mountPoints": [],
-            "volumesFrom": []
+            "volumesFrom": [],
+            "ulimits": []
         }
     ],
     "family": "fabridiplomadotareafam",
     "executionRoleArn": "arn:aws:iam::067609442845:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 3,
+    "revision": 5,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -54,7 +56,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-07-12T22:14:09.991Z",
-    "registeredBy": "arn:aws:iam::067609442845:user/fabri1997",
+    "registeredAt": "2023-07-13T03:07:22.551Z",
+    "registeredBy": "arn:aws:iam::067609442845:root",
     "tags": []
 }
