@@ -1,13 +1,13 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:067609442845:task-definition/fabritarea:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:067609442845:task-definition/fabritareaaws:5",
     "containerDefinitions": [
         {
-            "name": "fabricontent",
-            "image": "067609442845.dkr.ecr.us-east-2.amazonaws.com/fabrirepo",
+            "name": "fabricontentaws",
+            "image": "067609442845.dkr.ecr.us-east-2.amazonaws.com/fabrirepoaws",
             "cpu": 0,
             "portMappings": [
                 {
-                    "name": "fabricontent-80-tcp",
+                    "name": "fabricontentaws-80-tcp",
                     "containerPort": 80,
                     "hostPort": 80,
                     "protocol": "tcp",
@@ -22,11 +22,11 @@
             "ulimits": []
         }
     ],
-    "family": "fabritarea",
+    "family": "fabritareaaws",
     "taskRoleArn": "arn:aws:iam::067609442845:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::067609442845:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 5,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -60,7 +60,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-07-13T14:01:01.386Z",
+    "registeredAt": "2023-07-13T15:32:34.799Z",
     "registeredBy": "arn:aws:iam::067609442845:root",
     "tags": []
 }
