@@ -23,7 +23,7 @@
                                     </div>
 
                                     <form>
-                                        <p>Please login to your account</p>
+                                        <p>Inicia Sesion en tu cuenta</p>
 
                                         <div class="form-outline mb-4">
                                             <input type="email" id="form2Example11" class="form-control" placeholder="Phone number or email address" />
